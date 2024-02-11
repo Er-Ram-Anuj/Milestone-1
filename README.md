@@ -4,7 +4,7 @@ There are 25 Question based on javascript problem.
 2. [Calculator](https://er-ram-anuj.github.io/Simple-Calculator/)
 3. [Color Mixer](https://er-ram-anuj.github.io/color-mixer/)
 4. [Highest Marks](https://er-ram-anuj.github.io/Highest-Marks-calculator/)
-5. [Capitalize](https://github.com/Er-Ram-Anuj/Capitalized-First-letter/deployments/github-pages)
+5. [Capitalize](https://er-ram-anuj.github.io/Capitalized-First-letter/)
 6. [Vowel Counter](https://er-ram-anuj.github.io/Vowel-Counter/)
 7. [Remove Duplicates](https://er-ram-anuj.github.io/Remove-Duplicate-From-Cart/)
 8. [Inverted right-angled triangle pattern with asterisks](https://er-ram-anuj.github.io/Triangle-Pattern/)
