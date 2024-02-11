@@ -22,6 +22,6 @@ There are 25 Question based on javascript problem.
 20. [Dynamically Adding List Items to an Ordered List]()
 21. [TODO App](https://er-ram-anuj.github.io/To-Do-App/)
 22. [Progress Bar]()
-23. [Change the color on click](https://er-ram-anuj.github.io/Highlight-Text/)
-24. [Text Highlighting]()
+23. [Change the color on click]()
+24. [Text Highlighting](https://er-ram-anuj.github.io/Highlight-Text/)
 25. [Move the Image]()
