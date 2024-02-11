@@ -1,6 +1,6 @@
 # Milestone-1
 There are 25 Question based on javascript problem.
-1. [Password Validator](www.google.com)
+1. [Password Validator](https://er-ram-anuj.github.io/Password-Validator/)
 3. [Calculator]
 4. [Color Mixer]
 5. [Highest Marks]
