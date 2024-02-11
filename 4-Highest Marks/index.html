@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Highest Mark</title>
+</head>
+
+<body>
+    <div class="problem">
+        <img src="./Web capture_10-9-2023_15248_.jpeg">
+    </div>
+    <div class="solution">
+        <div class="EnterStudentName">
+            <h1>Enter Student Name</h1>
+            <h2>1.</h2><input type="text" id="student1" value="">
+            <h2>3.</h2><input type="text" id="student2" value="">
+            <h2>2.</h2><input type="text" id="student3" value="">
+            <h2>4.</h2><input type="text" id="student4" value="">
+            <h2>5.</h2><input type="text" id="student5" value="">
+            <h2>6.</h2><input type="text" id="student6" value="">
+            <h2>7.</h2><input type="text" id="student7" value="">
+        </div>
+        <div class="EnterStudentMarks">
+            <h1>Enter Student Marks</h1>
+            <h2>1.</h2><input type="number" id="Mark_student1">
+            <h2>2.</h2><input type="number" id="Mark_student2">
+            <h2>3.</h2><input type="number" id="Mark_student3">
+            <h2>4.</h2><input type="number" id="Mark_student4">
+            <h2>5.</h2><input type="number" id="Mark_student5">
+            <h2>6.</h2><input type="number" id="Mark_student6">
+            <h2>7.</h2><input type="number" id="Mark_student7">
+        </div>
+    </div>
+    <div class="btn">
+        <button id="maxbtn" onclick="maxMark()">Maximum Mark</button>
+        <button id="minbtn" onclick="minMark()">Minimum Mark</button>
+    </div>
+    <div class="Result">
+        <div class="resultLeft">
+            <h3 id="Max-Mark1"></h3>
+            <h3 id="Max-Mark"></h3>
+            <h3 id="stuname3"></h3>
+            <h3 id="stuname"></h3>
+        </div>
+        <div class="resultRight">
+            <h3 id="min-Mark1"></h3>
+            <h3 id="min-Mark"></h3>
+            <h3 id="stuname4"></h3>
+            <h3 id="stuname2"></h3>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>

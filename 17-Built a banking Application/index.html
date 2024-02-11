@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Banking Page</title>
+</head>
+<body>
+<h1>Banking Page</h1>
+<div id="customer-details">
+    <h2>Customer Details:</h2>
+    <p>Name: <span id="customer-name"></span></p>
+    <p>Balance:<span id="customer-balance"></span></p>
+</div>
+<div id="transaction-form">
+    <h2>Transaction:</h2>
+    <label for="amount">Amount:</label>
+    <input type="number" id="amount" placeholder="Enter amount">
+    <button onclick="deposit()">Deposit</button>
+    <button onclick="withdraw()">Withdraw</button>
+</div>
+
+<script>
+// Object to store customer details
+const customer = {
+    name: "John Doe",
+    balance: 1000
+};
+
+// Function to display customer details
+function displayCustomerDetails() {
+    document.getElementById("customer-name").textContent = customer.name;
+    document.getElementById("customer-balance").textContent = customer.balance.toFixed(2);
+}
+
+// Function to deposit money into customer account
+function deposit() {
+    const amount = parseFloat(document.getElementById("amount").value);
+    if (isNaN(amount) || amount <= 0) {
+        alert("Please enter a valid amount to deposit.");
+        return;
+    }
+    customer.balance += amount;
+    displayCustomerDetails();
+}
+
+// Function to withdraw money from customer account
+function withdraw() {
+    const amount = parseFloat(document.getElementById("amount").value);
+    if (isNaN(amount) || amount <= 0) {
+        alert("Please enter a valid amount to withdraw.");
+        return;
+    }
+    if (amount > customer.balance) {
+        alert("Insufficient funds.");
+        return;
+    }
+    customer.balance -= amount;
+    displayCustomerDetails();
+}
+
+// Display initial customer details
+displayCustomerDetails();
+</script>
+
+</body>
+</html>

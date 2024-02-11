@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.problem img{
+    width: 100%;
+    height: 100%;
+}
+.solution{
+    display: flex;
+    width: 95%;
+    gap: 5rem;
+    justify-content: center;
+}
+.EnterStudentName{
+    display: flex;
+    flex-direction: column;
+}
+.EnterStudentMarks{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    cursor: pointer;
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-weight:600;
+    padding: 10px 5px;
+    border-radius: 10px;
+}
+.Result{
+    border: 2px solid red;
+    width: 90%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+margin-bottom:2rem ;
+}
+button{
+    cursor: pointer;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    padding: 5px 20px;
+    border-radius: 10px;
+    outline: 0;
+    border: 0;
+    background-color: rgb(41, 42, 48);
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+button:hover{
+    border: 1px solid black;
+    background-color: transparent;
+    color: black;
+}
+#min-Mark{
+    color:red;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#Max-Mark{
+    color:red;
+    font-weight: 600;
+    font-size: 20px;
+}
+#stuname{
+    font-weight: 600;
+    color: blue;
+}
+#stuname2{
+    font-weight: 600;
+    color: blue;
+}

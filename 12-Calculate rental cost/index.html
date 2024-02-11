@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book a car on rent</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="problem">
+        <img src="./Screenshot (93).png">
+    </div>
+    <div class="solution">
+        
+            <div class="car">
+                <h1>Select the car-</h1>
+                <select name="car" id="cars">
+                    <option value="Select-Car" hidden>Select Car Type</option>
+                    <option value="Economy">Economy</option>
+                    <option value="Midsize">Midsize</option>
+                    <option value="Luxury">Luxury</option>
+                </select>
+            </div>
+        <div class="days">
+            <h1>
+                Number of Days-
+            </h1><input type="number" id="number"></div>
+            <br>
+            <div class="button">
+                <button onclick="calculate()">calculate Rent</button>
+            </div>
+            <div class="totalRent">
+                <h1>
+                    Total Rent will be- <div id="rent"></div>
+                </h1>
+            </div>
+            
+        
+    </div>
+    
+    <script src="./script.js"></script>
+</body>
+</html>

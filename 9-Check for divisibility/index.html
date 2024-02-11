@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divisibility</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            overflow: hidden;
+            padding:0% 30%;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <img src="./Web capture_30-9-2023_94519_.jpeg">
+    </div>
+
+<div class="solution">
+    <h1>Enter The number:</h1>
+    <input type="number" id="numInput" placeholder="Type Number add in array" value="">
+    <button id="addbtn" onclick="btnClick()">Add In Array</button>
+   <h2>Array is- [<span id="array"></span>]</h2>
+   <button id="check" onclick="check()">Check</button>
+   <h3>Number that divisibile by 3 but not by 2:</h3><span id="result"></span>
+</div>
+    <script src="./script.js"></script>
+</body>
+</html>

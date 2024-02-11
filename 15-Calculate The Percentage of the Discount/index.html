@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pecentage calculator</title>
+</head>
+<body>
+    <h3>Enter The Product Price:- <span><input type="number" id="price"></span></h3>
+    <h3>Enter The Product discount:- <span><input type="number" id="discount"></span></h3>
+    <button id="btn">Calculate Percentage</button>
+    <h3 id="result"></h3>
+    <script>
+let btn=document.getElementById("btn");
+btn.addEventListener("click",()=>{
+    let price=document.getElementById("price").value;
+let discount=document.getElementById("discount").value;
+    if(price===""||discount===""){
+        alert("Enter The price");  
+    document.getElementById("result").innerText="";
+    }
+    else{
+    let percentage=((discount*100)/price)
+    document.getElementById("result").innerText=(percentage);
+    }
+})
+    </script>
+</body>
+</html>

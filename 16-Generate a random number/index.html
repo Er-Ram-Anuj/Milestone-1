@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>genrate the Random number</title>
+</head>
+<body>
+    <h1>Genrate the random number:-</h1>
+    <button id="btn">Click Me </button>
+    <div id="result"><span><h2 id="randomNumber"></h2></span></div>
+    <script>
+       let btn= document.getElementById("btn");
+       let result= document.getElementById("randomNumber");
+       btn.addEventListener("click",()=>{
+        const ranDomNumber=Math.floor(Math.random()*100)+1;
+        result.innerText=ranDomNumber;
+       })
+
+    </script>
+</body>
+</html>

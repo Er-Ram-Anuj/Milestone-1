@@ -1,0 +1,65 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>List Display</title>
+  <style>
+    #listContainer {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+
+  <button onclick="displayList()">Display List</button>
+
+  <div id="listContainer">
+    <ul id="list"></ul>
+  </div>
+
+  <script>
+    const listItems = ['Item 1', 'Item 2', 'Item 3', 'Item 4', 'Item 5']; // Example list items
+
+    function displayList() {
+      const listContainer = document.getElementById('listContainer');
+      const list = document.getElementById('list');
+
+      list.innerHTML = ''; // Clear previous list items
+
+      for (let i = 0; i < listItems.length; i++) {
+        const item = listItems[i];
+        const li = document.createElement('li');
+        li.textContent = item;
+        list.appendChild(li);
+      }
+
+      listContainer.style.display = 'block'; // Display the list container
+
+      // Check if all list items are displayed
+      if (listItems.length === list.children.length) {
+        alert('All list items are displayed!');
+      }
+    }
+  </script>
+</body>
+</html> -->
+<!-- /////////////////////////////////Another Way........................//////////////////////////// -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>List Display</title>
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <center><h1>Click To See Our items</h1></center>
+  <button onclick="displayNextItem()">Display Next Item</button>
+  <div id="listContainer">
+    <ul id="list"></ul>
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>
+
